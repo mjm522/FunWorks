@@ -1,0 +1,2 @@
+/home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/min_cut.dir
+/home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/pcd_read.dir
