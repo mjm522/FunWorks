@@ -14,7 +14,7 @@ int main (int argc, char** argv)
   // Load input file into a PointCloud<T> with an appropriate type
   pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
   pcl::PCLPointCloud2 cloud_blob;
-  pcl::io::loadPCDFile ("test_pcd_mug.pcd", cloud_blob);
+  pcl::io::loadPCDFile ("test_pcd_mug_downsampled.pcd", cloud_blob);
   pcl::fromPCLPointCloud2 (cloud_blob, *cloud);
   //* the data should be available in cloud
 
@@ -62,7 +62,7 @@ int main (int argc, char** argv)
   // pcl::io::saveVTKFile ("mesh.vtk", triangles);
   // pcl::io::savePLYFile("mesh.ply",  cloud_blob);
 
-  pcl::io::savePolygonFileSTL("test_pcd_mug.STL",  triangles);
+  pcl::io::savePolygonFileSTL("test_pcd_mug_downsampled.STL",  triangles);
 
   pcl::visualization::CloudViewer viewer("Simple Cloud Viewer");
   viewer.showCloud(cloud);

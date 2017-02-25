@@ -59,7 +59,10 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/./bin/compress_pcd.dir/DependInfo.cmake"
+  "CMakeFiles/./bin/convex_hull_from_pcd.dir/DependInfo.cmake"
   "CMakeFiles/./bin/cylinder_model_segmentation.dir/DependInfo.cmake"
+  "CMakeFiles/./bin/downsample_pcd_file.dir/DependInfo.cmake"
   "CMakeFiles/./bin/min_cut.dir/DependInfo.cmake"
   "CMakeFiles/./bin/openni_grabber.dir/DependInfo.cmake"
   "CMakeFiles/./bin/outlier_removal.dir/DependInfo.cmake"

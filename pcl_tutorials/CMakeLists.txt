@@ -31,3 +31,12 @@ target_link_libraries (./bin/points_not_in_plane ${PCL_LIBRARIES})
 
 add_executable (./bin/outlier_removal outlier_removal.cpp)
 target_link_libraries (./bin/outlier_removal ${PCL_LIBRARIES})
+
+add_executable (./bin/downsample_pcd_file downsample_pcd_file.cpp)
+target_link_libraries (./bin/downsample_pcd_file ${PCL_LIBRARIES})
+
+add_executable (./bin/convex_hull_from_pcd convex_hull_from_pcd.cpp)
+target_link_libraries (./bin/convex_hull_from_pcd ${PCL_LIBRARIES})
+
+add_executable (./bin/compress_pcd compress_pcd.cpp)
+target_link_libraries (./bin/compress_pcd ${PCL_LIBRARIES})

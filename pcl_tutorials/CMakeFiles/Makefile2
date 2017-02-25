@@ -53,13 +53,83 @@ CMAKE_SOURCE_DIR = /home/mjm/Projects/FunProjects/pcl_tutorials
 CMAKE_BINARY_DIR = /home/mjm/Projects/FunProjects/pcl_tutorials
 
 #=============================================================================
+# Target rules for target CMakeFiles/./bin/compress_pcd.dir
+
+# All Build rule for target.
+CMakeFiles/./bin/compress_pcd.dir/all:
+	$(MAKE) -f CMakeFiles/./bin/compress_pcd.dir/build.make CMakeFiles/./bin/compress_pcd.dir/depend
+	$(MAKE) -f CMakeFiles/./bin/compress_pcd.dir/build.make CMakeFiles/./bin/compress_pcd.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  1
+	@echo "Built target ./bin/compress_pcd"
+.PHONY : CMakeFiles/./bin/compress_pcd.dir/all
+
+# Include target in all.
+all: CMakeFiles/./bin/compress_pcd.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/./bin/compress_pcd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/./bin/compress_pcd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles 0
+.PHONY : CMakeFiles/./bin/compress_pcd.dir/rule
+
+# Convenience name for target.
+./bin/compress_pcd: CMakeFiles/./bin/compress_pcd.dir/rule
+.PHONY : ./bin/compress_pcd
+
+# clean rule for target.
+CMakeFiles/./bin/compress_pcd.dir/clean:
+	$(MAKE) -f CMakeFiles/./bin/compress_pcd.dir/build.make CMakeFiles/./bin/compress_pcd.dir/clean
+.PHONY : CMakeFiles/./bin/compress_pcd.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/./bin/compress_pcd.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/./bin/convex_hull_from_pcd.dir
+
+# All Build rule for target.
+CMakeFiles/./bin/convex_hull_from_pcd.dir/all:
+	$(MAKE) -f CMakeFiles/./bin/convex_hull_from_pcd.dir/build.make CMakeFiles/./bin/convex_hull_from_pcd.dir/depend
+	$(MAKE) -f CMakeFiles/./bin/convex_hull_from_pcd.dir/build.make CMakeFiles/./bin/convex_hull_from_pcd.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  2
+	@echo "Built target ./bin/convex_hull_from_pcd"
+.PHONY : CMakeFiles/./bin/convex_hull_from_pcd.dir/all
+
+# Include target in all.
+all: CMakeFiles/./bin/convex_hull_from_pcd.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/./bin/convex_hull_from_pcd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/./bin/convex_hull_from_pcd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles 0
+.PHONY : CMakeFiles/./bin/convex_hull_from_pcd.dir/rule
+
+# Convenience name for target.
+./bin/convex_hull_from_pcd: CMakeFiles/./bin/convex_hull_from_pcd.dir/rule
+.PHONY : ./bin/convex_hull_from_pcd
+
+# clean rule for target.
+CMakeFiles/./bin/convex_hull_from_pcd.dir/clean:
+	$(MAKE) -f CMakeFiles/./bin/convex_hull_from_pcd.dir/build.make CMakeFiles/./bin/convex_hull_from_pcd.dir/clean
+.PHONY : CMakeFiles/./bin/convex_hull_from_pcd.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/./bin/convex_hull_from_pcd.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/./bin/cylinder_model_segmentation.dir
 
 # All Build rule for target.
 CMakeFiles/./bin/cylinder_model_segmentation.dir/all:
 	$(MAKE) -f CMakeFiles/./bin/cylinder_model_segmentation.dir/build.make CMakeFiles/./bin/cylinder_model_segmentation.dir/depend
 	$(MAKE) -f CMakeFiles/./bin/cylinder_model_segmentation.dir/build.make CMakeFiles/./bin/cylinder_model_segmentation.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  3
 	@echo "Built target ./bin/cylinder_model_segmentation"
 .PHONY : CMakeFiles/./bin/cylinder_model_segmentation.dir/all
 
@@ -88,13 +158,48 @@ clean: CMakeFiles/./bin/cylinder_model_segmentation.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/./bin/downsample_pcd_file.dir
+
+# All Build rule for target.
+CMakeFiles/./bin/downsample_pcd_file.dir/all:
+	$(MAKE) -f CMakeFiles/./bin/downsample_pcd_file.dir/build.make CMakeFiles/./bin/downsample_pcd_file.dir/depend
+	$(MAKE) -f CMakeFiles/./bin/downsample_pcd_file.dir/build.make CMakeFiles/./bin/downsample_pcd_file.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  4
+	@echo "Built target ./bin/downsample_pcd_file"
+.PHONY : CMakeFiles/./bin/downsample_pcd_file.dir/all
+
+# Include target in all.
+all: CMakeFiles/./bin/downsample_pcd_file.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/./bin/downsample_pcd_file.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/./bin/downsample_pcd_file.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles 0
+.PHONY : CMakeFiles/./bin/downsample_pcd_file.dir/rule
+
+# Convenience name for target.
+./bin/downsample_pcd_file: CMakeFiles/./bin/downsample_pcd_file.dir/rule
+.PHONY : ./bin/downsample_pcd_file
+
+# clean rule for target.
+CMakeFiles/./bin/downsample_pcd_file.dir/clean:
+	$(MAKE) -f CMakeFiles/./bin/downsample_pcd_file.dir/build.make CMakeFiles/./bin/downsample_pcd_file.dir/clean
+.PHONY : CMakeFiles/./bin/downsample_pcd_file.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/./bin/downsample_pcd_file.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/./bin/min_cut.dir
 
 # All Build rule for target.
 CMakeFiles/./bin/min_cut.dir/all:
 	$(MAKE) -f CMakeFiles/./bin/min_cut.dir/build.make CMakeFiles/./bin/min_cut.dir/depend
 	$(MAKE) -f CMakeFiles/./bin/min_cut.dir/build.make CMakeFiles/./bin/min_cut.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  5
 	@echo "Built target ./bin/min_cut"
 .PHONY : CMakeFiles/./bin/min_cut.dir/all
 
@@ -129,7 +234,7 @@ clean: CMakeFiles/./bin/min_cut.dir/clean
 CMakeFiles/./bin/openni_grabber.dir/all:
 	$(MAKE) -f CMakeFiles/./bin/openni_grabber.dir/build.make CMakeFiles/./bin/openni_grabber.dir/depend
 	$(MAKE) -f CMakeFiles/./bin/openni_grabber.dir/build.make CMakeFiles/./bin/openni_grabber.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  6
 	@echo "Built target ./bin/openni_grabber"
 .PHONY : CMakeFiles/./bin/openni_grabber.dir/all
 
@@ -164,7 +269,7 @@ clean: CMakeFiles/./bin/openni_grabber.dir/clean
 CMakeFiles/./bin/outlier_removal.dir/all:
 	$(MAKE) -f CMakeFiles/./bin/outlier_removal.dir/build.make CMakeFiles/./bin/outlier_removal.dir/depend
 	$(MAKE) -f CMakeFiles/./bin/outlier_removal.dir/build.make CMakeFiles/./bin/outlier_removal.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  7
 	@echo "Built target ./bin/outlier_removal"
 .PHONY : CMakeFiles/./bin/outlier_removal.dir/all
 
@@ -199,7 +304,7 @@ clean: CMakeFiles/./bin/outlier_removal.dir/clean
 CMakeFiles/./bin/pcd_read.dir/all:
 	$(MAKE) -f CMakeFiles/./bin/pcd_read.dir/build.make CMakeFiles/./bin/pcd_read.dir/depend
 	$(MAKE) -f CMakeFiles/./bin/pcd_read.dir/build.make CMakeFiles/./bin/pcd_read.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  8
 	@echo "Built target ./bin/pcd_read"
 .PHONY : CMakeFiles/./bin/pcd_read.dir/all
 
@@ -234,7 +339,7 @@ clean: CMakeFiles/./bin/pcd_read.dir/clean
 CMakeFiles/./bin/point_cloud_to_mesh.dir/all:
 	$(MAKE) -f CMakeFiles/./bin/point_cloud_to_mesh.dir/build.make CMakeFiles/./bin/point_cloud_to_mesh.dir/depend
 	$(MAKE) -f CMakeFiles/./bin/point_cloud_to_mesh.dir/build.make CMakeFiles/./bin/point_cloud_to_mesh.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  9
 	@echo "Built target ./bin/point_cloud_to_mesh"
 .PHONY : CMakeFiles/./bin/point_cloud_to_mesh.dir/all
 
@@ -269,7 +374,7 @@ clean: CMakeFiles/./bin/point_cloud_to_mesh.dir/clean
 CMakeFiles/./bin/points_not_in_plane.dir/all:
 	$(MAKE) -f CMakeFiles/./bin/points_not_in_plane.dir/build.make CMakeFiles/./bin/points_not_in_plane.dir/depend
 	$(MAKE) -f CMakeFiles/./bin/points_not_in_plane.dir/build.make CMakeFiles/./bin/points_not_in_plane.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  10
 	@echo "Built target ./bin/points_not_in_plane"
 .PHONY : CMakeFiles/./bin/points_not_in_plane.dir/all
 
@@ -304,7 +409,7 @@ clean: CMakeFiles/./bin/points_not_in_plane.dir/clean
 CMakeFiles/./bin/region_growing_segmentation.dir/all:
 	$(MAKE) -f CMakeFiles/./bin/region_growing_segmentation.dir/build.make CMakeFiles/./bin/region_growing_segmentation.dir/depend
 	$(MAKE) -f CMakeFiles/./bin/region_growing_segmentation.dir/build.make CMakeFiles/./bin/region_growing_segmentation.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles  11
 	@echo "Built target ./bin/region_growing_segmentation"
 .PHONY : CMakeFiles/./bin/region_growing_segmentation.dir/all
 

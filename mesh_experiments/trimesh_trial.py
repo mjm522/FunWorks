@@ -2,12 +2,27 @@ import numpy as np
 import trimesh
 
 
+# attach to trimesh logs
+trimesh.util.attach_to_log()
+
 # load a file by name or from a buffer
-mesh = trimesh.load_mesh('test_pcd_mug.STL')
+mesh = trimesh.load_mesh('mesh.STL')
 
 
-mesh.fill_holes()
+# mesh.fill_holes()
 
+
+meshes = mesh.split(only_watertight=False)
+
+# the convex hull of every component
+meshes_convex = [i.convex_hull for i in meshes]
+
+# combine all components into one mesh
+convex_combined = np.sum(meshes_convex)
+
+convex_combined.show()
+
+convex_combined.export('mesh_hull.STL', 'stl')
 
 # is the current mesh watertight?
 print mesh.is_watertight

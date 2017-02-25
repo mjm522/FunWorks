@@ -10,7 +10,7 @@
     <visual>
       <origin rpy="1.5707 0. 0" xyz="-0.015 0.011 0.0852"/>
       <geometry>
-        <mesh filename="test_pcd_mug.STL" scale="1 1 1" />
+        <mesh filename="mesh_hull.STL" scale="1 1 1" />
       </geometry>
     </visual>
     <inertial>

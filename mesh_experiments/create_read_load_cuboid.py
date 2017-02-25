@@ -37,13 +37,10 @@ def main():
     pb.resetSimulation()
     
     pb.setTimeStep(0.01)
-
-    world = pb.loadURDF('myworld.urdf')
-    
+    world = pb.loadURDF('myworld.urdf')  
     mycube = pb.loadURDF('pcd_stl.urdf')
     
     pb.setGravity(0., 0.,-10.)
-
     pb.setRealTimeSimulation(0)
 
     while True:

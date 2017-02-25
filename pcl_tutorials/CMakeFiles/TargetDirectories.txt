@@ -1,4 +1,7 @@
+/home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/compress_pcd.dir
+/home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/convex_hull_from_pcd.dir
 /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/cylinder_model_segmentation.dir
+/home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/downsample_pcd_file.dir
 /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/min_cut.dir
 /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/openni_grabber.dir
 /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/outlier_removal.dir

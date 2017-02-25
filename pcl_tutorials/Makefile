@@ -99,6 +99,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ./bin/compress_pcd
+
+# Build rule for target.
+./bin/compress_pcd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ./bin/compress_pcd
+.PHONY : ./bin/compress_pcd
+
+# fast build rule for target.
+./bin/compress_pcd/fast:
+	$(MAKE) -f CMakeFiles/./bin/compress_pcd.dir/build.make CMakeFiles/./bin/compress_pcd.dir/build
+.PHONY : ./bin/compress_pcd/fast
+
+#=============================================================================
+# Target rules for targets named ./bin/convex_hull_from_pcd
+
+# Build rule for target.
+./bin/convex_hull_from_pcd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ./bin/convex_hull_from_pcd
+.PHONY : ./bin/convex_hull_from_pcd
+
+# fast build rule for target.
+./bin/convex_hull_from_pcd/fast:
+	$(MAKE) -f CMakeFiles/./bin/convex_hull_from_pcd.dir/build.make CMakeFiles/./bin/convex_hull_from_pcd.dir/build
+.PHONY : ./bin/convex_hull_from_pcd/fast
+
+#=============================================================================
 # Target rules for targets named ./bin/cylinder_model_segmentation
 
 # Build rule for target.
@@ -110,6 +136,19 @@ depend:
 ./bin/cylinder_model_segmentation/fast:
 	$(MAKE) -f CMakeFiles/./bin/cylinder_model_segmentation.dir/build.make CMakeFiles/./bin/cylinder_model_segmentation.dir/build
 .PHONY : ./bin/cylinder_model_segmentation/fast
+
+#=============================================================================
+# Target rules for targets named ./bin/downsample_pcd_file
+
+# Build rule for target.
+./bin/downsample_pcd_file: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ./bin/downsample_pcd_file
+.PHONY : ./bin/downsample_pcd_file
+
+# fast build rule for target.
+./bin/downsample_pcd_file/fast:
+	$(MAKE) -f CMakeFiles/./bin/downsample_pcd_file.dir/build.make CMakeFiles/./bin/downsample_pcd_file.dir/build
+.PHONY : ./bin/downsample_pcd_file/fast
 
 #=============================================================================
 # Target rules for targets named ./bin/min_cut
@@ -202,6 +241,54 @@ depend:
 	$(MAKE) -f CMakeFiles/./bin/region_growing_segmentation.dir/build.make CMakeFiles/./bin/region_growing_segmentation.dir/build
 .PHONY : ./bin/region_growing_segmentation/fast
 
+compress_pcd.o: compress_pcd.cpp.o
+.PHONY : compress_pcd.o
+
+# target to build an object file
+compress_pcd.cpp.o:
+	$(MAKE) -f CMakeFiles/./bin/compress_pcd.dir/build.make CMakeFiles/./bin/compress_pcd.dir/compress_pcd.cpp.o
+.PHONY : compress_pcd.cpp.o
+
+compress_pcd.i: compress_pcd.cpp.i
+.PHONY : compress_pcd.i
+
+# target to preprocess a source file
+compress_pcd.cpp.i:
+	$(MAKE) -f CMakeFiles/./bin/compress_pcd.dir/build.make CMakeFiles/./bin/compress_pcd.dir/compress_pcd.cpp.i
+.PHONY : compress_pcd.cpp.i
+
+compress_pcd.s: compress_pcd.cpp.s
+.PHONY : compress_pcd.s
+
+# target to generate assembly for a file
+compress_pcd.cpp.s:
+	$(MAKE) -f CMakeFiles/./bin/compress_pcd.dir/build.make CMakeFiles/./bin/compress_pcd.dir/compress_pcd.cpp.s
+.PHONY : compress_pcd.cpp.s
+
+convex_hull_from_pcd.o: convex_hull_from_pcd.cpp.o
+.PHONY : convex_hull_from_pcd.o
+
+# target to build an object file
+convex_hull_from_pcd.cpp.o:
+	$(MAKE) -f CMakeFiles/./bin/convex_hull_from_pcd.dir/build.make CMakeFiles/./bin/convex_hull_from_pcd.dir/convex_hull_from_pcd.cpp.o
+.PHONY : convex_hull_from_pcd.cpp.o
+
+convex_hull_from_pcd.i: convex_hull_from_pcd.cpp.i
+.PHONY : convex_hull_from_pcd.i
+
+# target to preprocess a source file
+convex_hull_from_pcd.cpp.i:
+	$(MAKE) -f CMakeFiles/./bin/convex_hull_from_pcd.dir/build.make CMakeFiles/./bin/convex_hull_from_pcd.dir/convex_hull_from_pcd.cpp.i
+.PHONY : convex_hull_from_pcd.cpp.i
+
+convex_hull_from_pcd.s: convex_hull_from_pcd.cpp.s
+.PHONY : convex_hull_from_pcd.s
+
+# target to generate assembly for a file
+convex_hull_from_pcd.cpp.s:
+	$(MAKE) -f CMakeFiles/./bin/convex_hull_from_pcd.dir/build.make CMakeFiles/./bin/convex_hull_from_pcd.dir/convex_hull_from_pcd.cpp.s
+.PHONY : convex_hull_from_pcd.cpp.s
+
 cylinder_model_segmentation.o: cylinder_model_segmentation.cpp.o
 .PHONY : cylinder_model_segmentation.o
 
@@ -225,6 +312,30 @@ cylinder_model_segmentation.s: cylinder_model_segmentation.cpp.s
 cylinder_model_segmentation.cpp.s:
 	$(MAKE) -f CMakeFiles/./bin/cylinder_model_segmentation.dir/build.make CMakeFiles/./bin/cylinder_model_segmentation.dir/cylinder_model_segmentation.cpp.s
 .PHONY : cylinder_model_segmentation.cpp.s
+
+downsample_pcd_file.o: downsample_pcd_file.cpp.o
+.PHONY : downsample_pcd_file.o
+
+# target to build an object file
+downsample_pcd_file.cpp.o:
+	$(MAKE) -f CMakeFiles/./bin/downsample_pcd_file.dir/build.make CMakeFiles/./bin/downsample_pcd_file.dir/downsample_pcd_file.cpp.o
+.PHONY : downsample_pcd_file.cpp.o
+
+downsample_pcd_file.i: downsample_pcd_file.cpp.i
+.PHONY : downsample_pcd_file.i
+
+# target to preprocess a source file
+downsample_pcd_file.cpp.i:
+	$(MAKE) -f CMakeFiles/./bin/downsample_pcd_file.dir/build.make CMakeFiles/./bin/downsample_pcd_file.dir/downsample_pcd_file.cpp.i
+.PHONY : downsample_pcd_file.cpp.i
+
+downsample_pcd_file.s: downsample_pcd_file.cpp.s
+.PHONY : downsample_pcd_file.s
+
+# target to generate assembly for a file
+downsample_pcd_file.cpp.s:
+	$(MAKE) -f CMakeFiles/./bin/downsample_pcd_file.dir/build.make CMakeFiles/./bin/downsample_pcd_file.dir/downsample_pcd_file.cpp.s
+.PHONY : downsample_pcd_file.cpp.s
 
 min_cut.o: min_cut.cpp.o
 .PHONY : min_cut.o
@@ -400,7 +511,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... ./bin/compress_pcd"
+	@echo "... ./bin/convex_hull_from_pcd"
 	@echo "... ./bin/cylinder_model_segmentation"
+	@echo "... ./bin/downsample_pcd_file"
 	@echo "... ./bin/min_cut"
 	@echo "... ./bin/openni_grabber"
 	@echo "... ./bin/outlier_removal"
@@ -410,9 +524,18 @@ help:
 	@echo "... ./bin/region_growing_segmentation"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... compress_pcd.o"
+	@echo "... compress_pcd.i"
+	@echo "... compress_pcd.s"
+	@echo "... convex_hull_from_pcd.o"
+	@echo "... convex_hull_from_pcd.i"
+	@echo "... convex_hull_from_pcd.s"
 	@echo "... cylinder_model_segmentation.o"
 	@echo "... cylinder_model_segmentation.i"
 	@echo "... cylinder_model_segmentation.s"
+	@echo "... downsample_pcd_file.o"
+	@echo "... downsample_pcd_file.i"
+	@echo "... downsample_pcd_file.s"
 	@echo "... min_cut.o"
 	@echo "... min_cut.i"
 	@echo "... min_cut.s"
