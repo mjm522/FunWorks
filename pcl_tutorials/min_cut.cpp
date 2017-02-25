@@ -9,7 +9,7 @@
 int main (int argc, char** argv)
 {
   pcl::PointCloud <pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud <pcl::PointXYZ>);
-  if ( pcl::io::loadPCDFile <pcl::PointXYZ> ("table_scene_lms400.pcd", *cloud) == -1 )
+  if ( pcl::io::loadPCDFile <pcl::PointXYZ> ("test_pcd.pcd", *cloud) == -1 )
   {
     std::cout << "Cloud reading failed." << std::endl;
     return (-1);

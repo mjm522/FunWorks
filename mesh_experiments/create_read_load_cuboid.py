@@ -40,7 +40,7 @@ def main():
 
     world = pb.loadURDF('myworld.urdf')
     
-    mycube = pb.loadURDF('mycube.urdf')
+    mycube = pb.loadURDF('pcd_stl.urdf')
     
     pb.setGravity(0., 0.,-10.)
 
@@ -51,5 +51,5 @@ def main():
 
 
 if __name__ == '__main__':
-    create_mesh()
+    # create_mesh()
     main()

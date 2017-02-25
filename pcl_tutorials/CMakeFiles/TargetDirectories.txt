@@ -1,2 +1,8 @@
+/home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/cylinder_model_segmentation.dir
 /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/min_cut.dir
+/home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/openni_grabber.dir
+/home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/outlier_removal.dir
 /home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/pcd_read.dir
+/home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/point_cloud_to_mesh.dir
+/home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/points_not_in_plane.dir
+/home/mjm/Projects/FunProjects/pcl_tutorials/CMakeFiles/./bin/region_growing_segmentation.dir

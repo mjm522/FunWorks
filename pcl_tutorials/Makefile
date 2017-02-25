@@ -99,6 +99,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ./bin/cylinder_model_segmentation
+
+# Build rule for target.
+./bin/cylinder_model_segmentation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ./bin/cylinder_model_segmentation
+.PHONY : ./bin/cylinder_model_segmentation
+
+# fast build rule for target.
+./bin/cylinder_model_segmentation/fast:
+	$(MAKE) -f CMakeFiles/./bin/cylinder_model_segmentation.dir/build.make CMakeFiles/./bin/cylinder_model_segmentation.dir/build
+.PHONY : ./bin/cylinder_model_segmentation/fast
+
+#=============================================================================
 # Target rules for targets named ./bin/min_cut
 
 # Build rule for target.
@@ -112,6 +125,32 @@ depend:
 .PHONY : ./bin/min_cut/fast
 
 #=============================================================================
+# Target rules for targets named ./bin/openni_grabber
+
+# Build rule for target.
+./bin/openni_grabber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ./bin/openni_grabber
+.PHONY : ./bin/openni_grabber
+
+# fast build rule for target.
+./bin/openni_grabber/fast:
+	$(MAKE) -f CMakeFiles/./bin/openni_grabber.dir/build.make CMakeFiles/./bin/openni_grabber.dir/build
+.PHONY : ./bin/openni_grabber/fast
+
+#=============================================================================
+# Target rules for targets named ./bin/outlier_removal
+
+# Build rule for target.
+./bin/outlier_removal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ./bin/outlier_removal
+.PHONY : ./bin/outlier_removal
+
+# fast build rule for target.
+./bin/outlier_removal/fast:
+	$(MAKE) -f CMakeFiles/./bin/outlier_removal.dir/build.make CMakeFiles/./bin/outlier_removal.dir/build
+.PHONY : ./bin/outlier_removal/fast
+
+#=============================================================================
 # Target rules for targets named ./bin/pcd_read
 
 # Build rule for target.
@@ -123,6 +162,69 @@ depend:
 ./bin/pcd_read/fast:
 	$(MAKE) -f CMakeFiles/./bin/pcd_read.dir/build.make CMakeFiles/./bin/pcd_read.dir/build
 .PHONY : ./bin/pcd_read/fast
+
+#=============================================================================
+# Target rules for targets named ./bin/point_cloud_to_mesh
+
+# Build rule for target.
+./bin/point_cloud_to_mesh: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ./bin/point_cloud_to_mesh
+.PHONY : ./bin/point_cloud_to_mesh
+
+# fast build rule for target.
+./bin/point_cloud_to_mesh/fast:
+	$(MAKE) -f CMakeFiles/./bin/point_cloud_to_mesh.dir/build.make CMakeFiles/./bin/point_cloud_to_mesh.dir/build
+.PHONY : ./bin/point_cloud_to_mesh/fast
+
+#=============================================================================
+# Target rules for targets named ./bin/points_not_in_plane
+
+# Build rule for target.
+./bin/points_not_in_plane: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ./bin/points_not_in_plane
+.PHONY : ./bin/points_not_in_plane
+
+# fast build rule for target.
+./bin/points_not_in_plane/fast:
+	$(MAKE) -f CMakeFiles/./bin/points_not_in_plane.dir/build.make CMakeFiles/./bin/points_not_in_plane.dir/build
+.PHONY : ./bin/points_not_in_plane/fast
+
+#=============================================================================
+# Target rules for targets named ./bin/region_growing_segmentation
+
+# Build rule for target.
+./bin/region_growing_segmentation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ./bin/region_growing_segmentation
+.PHONY : ./bin/region_growing_segmentation
+
+# fast build rule for target.
+./bin/region_growing_segmentation/fast:
+	$(MAKE) -f CMakeFiles/./bin/region_growing_segmentation.dir/build.make CMakeFiles/./bin/region_growing_segmentation.dir/build
+.PHONY : ./bin/region_growing_segmentation/fast
+
+cylinder_model_segmentation.o: cylinder_model_segmentation.cpp.o
+.PHONY : cylinder_model_segmentation.o
+
+# target to build an object file
+cylinder_model_segmentation.cpp.o:
+	$(MAKE) -f CMakeFiles/./bin/cylinder_model_segmentation.dir/build.make CMakeFiles/./bin/cylinder_model_segmentation.dir/cylinder_model_segmentation.cpp.o
+.PHONY : cylinder_model_segmentation.cpp.o
+
+cylinder_model_segmentation.i: cylinder_model_segmentation.cpp.i
+.PHONY : cylinder_model_segmentation.i
+
+# target to preprocess a source file
+cylinder_model_segmentation.cpp.i:
+	$(MAKE) -f CMakeFiles/./bin/cylinder_model_segmentation.dir/build.make CMakeFiles/./bin/cylinder_model_segmentation.dir/cylinder_model_segmentation.cpp.i
+.PHONY : cylinder_model_segmentation.cpp.i
+
+cylinder_model_segmentation.s: cylinder_model_segmentation.cpp.s
+.PHONY : cylinder_model_segmentation.s
+
+# target to generate assembly for a file
+cylinder_model_segmentation.cpp.s:
+	$(MAKE) -f CMakeFiles/./bin/cylinder_model_segmentation.dir/build.make CMakeFiles/./bin/cylinder_model_segmentation.dir/cylinder_model_segmentation.cpp.s
+.PHONY : cylinder_model_segmentation.cpp.s
 
 min_cut.o: min_cut.cpp.o
 .PHONY : min_cut.o
@@ -148,6 +250,54 @@ min_cut.cpp.s:
 	$(MAKE) -f CMakeFiles/./bin/min_cut.dir/build.make CMakeFiles/./bin/min_cut.dir/min_cut.cpp.s
 .PHONY : min_cut.cpp.s
 
+openni_grabber.o: openni_grabber.cpp.o
+.PHONY : openni_grabber.o
+
+# target to build an object file
+openni_grabber.cpp.o:
+	$(MAKE) -f CMakeFiles/./bin/openni_grabber.dir/build.make CMakeFiles/./bin/openni_grabber.dir/openni_grabber.cpp.o
+.PHONY : openni_grabber.cpp.o
+
+openni_grabber.i: openni_grabber.cpp.i
+.PHONY : openni_grabber.i
+
+# target to preprocess a source file
+openni_grabber.cpp.i:
+	$(MAKE) -f CMakeFiles/./bin/openni_grabber.dir/build.make CMakeFiles/./bin/openni_grabber.dir/openni_grabber.cpp.i
+.PHONY : openni_grabber.cpp.i
+
+openni_grabber.s: openni_grabber.cpp.s
+.PHONY : openni_grabber.s
+
+# target to generate assembly for a file
+openni_grabber.cpp.s:
+	$(MAKE) -f CMakeFiles/./bin/openni_grabber.dir/build.make CMakeFiles/./bin/openni_grabber.dir/openni_grabber.cpp.s
+.PHONY : openni_grabber.cpp.s
+
+outlier_removal.o: outlier_removal.cpp.o
+.PHONY : outlier_removal.o
+
+# target to build an object file
+outlier_removal.cpp.o:
+	$(MAKE) -f CMakeFiles/./bin/outlier_removal.dir/build.make CMakeFiles/./bin/outlier_removal.dir/outlier_removal.cpp.o
+.PHONY : outlier_removal.cpp.o
+
+outlier_removal.i: outlier_removal.cpp.i
+.PHONY : outlier_removal.i
+
+# target to preprocess a source file
+outlier_removal.cpp.i:
+	$(MAKE) -f CMakeFiles/./bin/outlier_removal.dir/build.make CMakeFiles/./bin/outlier_removal.dir/outlier_removal.cpp.i
+.PHONY : outlier_removal.cpp.i
+
+outlier_removal.s: outlier_removal.cpp.s
+.PHONY : outlier_removal.s
+
+# target to generate assembly for a file
+outlier_removal.cpp.s:
+	$(MAKE) -f CMakeFiles/./bin/outlier_removal.dir/build.make CMakeFiles/./bin/outlier_removal.dir/outlier_removal.cpp.s
+.PHONY : outlier_removal.cpp.s
+
 pcd_read.o: pcd_read.cpp.o
 .PHONY : pcd_read.o
 
@@ -172,22 +322,118 @@ pcd_read.cpp.s:
 	$(MAKE) -f CMakeFiles/./bin/pcd_read.dir/build.make CMakeFiles/./bin/pcd_read.dir/pcd_read.cpp.s
 .PHONY : pcd_read.cpp.s
 
+point_cloud_to_mesh.o: point_cloud_to_mesh.cpp.o
+.PHONY : point_cloud_to_mesh.o
+
+# target to build an object file
+point_cloud_to_mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/./bin/point_cloud_to_mesh.dir/build.make CMakeFiles/./bin/point_cloud_to_mesh.dir/point_cloud_to_mesh.cpp.o
+.PHONY : point_cloud_to_mesh.cpp.o
+
+point_cloud_to_mesh.i: point_cloud_to_mesh.cpp.i
+.PHONY : point_cloud_to_mesh.i
+
+# target to preprocess a source file
+point_cloud_to_mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/./bin/point_cloud_to_mesh.dir/build.make CMakeFiles/./bin/point_cloud_to_mesh.dir/point_cloud_to_mesh.cpp.i
+.PHONY : point_cloud_to_mesh.cpp.i
+
+point_cloud_to_mesh.s: point_cloud_to_mesh.cpp.s
+.PHONY : point_cloud_to_mesh.s
+
+# target to generate assembly for a file
+point_cloud_to_mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/./bin/point_cloud_to_mesh.dir/build.make CMakeFiles/./bin/point_cloud_to_mesh.dir/point_cloud_to_mesh.cpp.s
+.PHONY : point_cloud_to_mesh.cpp.s
+
+points_not_in_plane.o: points_not_in_plane.cpp.o
+.PHONY : points_not_in_plane.o
+
+# target to build an object file
+points_not_in_plane.cpp.o:
+	$(MAKE) -f CMakeFiles/./bin/points_not_in_plane.dir/build.make CMakeFiles/./bin/points_not_in_plane.dir/points_not_in_plane.cpp.o
+.PHONY : points_not_in_plane.cpp.o
+
+points_not_in_plane.i: points_not_in_plane.cpp.i
+.PHONY : points_not_in_plane.i
+
+# target to preprocess a source file
+points_not_in_plane.cpp.i:
+	$(MAKE) -f CMakeFiles/./bin/points_not_in_plane.dir/build.make CMakeFiles/./bin/points_not_in_plane.dir/points_not_in_plane.cpp.i
+.PHONY : points_not_in_plane.cpp.i
+
+points_not_in_plane.s: points_not_in_plane.cpp.s
+.PHONY : points_not_in_plane.s
+
+# target to generate assembly for a file
+points_not_in_plane.cpp.s:
+	$(MAKE) -f CMakeFiles/./bin/points_not_in_plane.dir/build.make CMakeFiles/./bin/points_not_in_plane.dir/points_not_in_plane.cpp.s
+.PHONY : points_not_in_plane.cpp.s
+
+region_growing_segmentation.o: region_growing_segmentation.cpp.o
+.PHONY : region_growing_segmentation.o
+
+# target to build an object file
+region_growing_segmentation.cpp.o:
+	$(MAKE) -f CMakeFiles/./bin/region_growing_segmentation.dir/build.make CMakeFiles/./bin/region_growing_segmentation.dir/region_growing_segmentation.cpp.o
+.PHONY : region_growing_segmentation.cpp.o
+
+region_growing_segmentation.i: region_growing_segmentation.cpp.i
+.PHONY : region_growing_segmentation.i
+
+# target to preprocess a source file
+region_growing_segmentation.cpp.i:
+	$(MAKE) -f CMakeFiles/./bin/region_growing_segmentation.dir/build.make CMakeFiles/./bin/region_growing_segmentation.dir/region_growing_segmentation.cpp.i
+.PHONY : region_growing_segmentation.cpp.i
+
+region_growing_segmentation.s: region_growing_segmentation.cpp.s
+.PHONY : region_growing_segmentation.s
+
+# target to generate assembly for a file
+region_growing_segmentation.cpp.s:
+	$(MAKE) -f CMakeFiles/./bin/region_growing_segmentation.dir/build.make CMakeFiles/./bin/region_growing_segmentation.dir/region_growing_segmentation.cpp.s
+.PHONY : region_growing_segmentation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... ./bin/cylinder_model_segmentation"
 	@echo "... ./bin/min_cut"
+	@echo "... ./bin/openni_grabber"
+	@echo "... ./bin/outlier_removal"
 	@echo "... ./bin/pcd_read"
+	@echo "... ./bin/point_cloud_to_mesh"
+	@echo "... ./bin/points_not_in_plane"
+	@echo "... ./bin/region_growing_segmentation"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... cylinder_model_segmentation.o"
+	@echo "... cylinder_model_segmentation.i"
+	@echo "... cylinder_model_segmentation.s"
 	@echo "... min_cut.o"
 	@echo "... min_cut.i"
 	@echo "... min_cut.s"
+	@echo "... openni_grabber.o"
+	@echo "... openni_grabber.i"
+	@echo "... openni_grabber.s"
+	@echo "... outlier_removal.o"
+	@echo "... outlier_removal.i"
+	@echo "... outlier_removal.s"
 	@echo "... pcd_read.o"
 	@echo "... pcd_read.i"
 	@echo "... pcd_read.s"
+	@echo "... point_cloud_to_mesh.o"
+	@echo "... point_cloud_to_mesh.i"
+	@echo "... point_cloud_to_mesh.s"
+	@echo "... points_not_in_plane.o"
+	@echo "... points_not_in_plane.i"
+	@echo "... points_not_in_plane.s"
+	@echo "... region_growing_segmentation.o"
+	@echo "... region_growing_segmentation.i"
+	@echo "... region_growing_segmentation.s"
 .PHONY : help
 
 

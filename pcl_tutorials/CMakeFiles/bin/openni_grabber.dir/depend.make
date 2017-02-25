@@ -278,6 +278,7 @@ CMakeFiles/bin/openni_grabber.dir/openni_grabber.cpp.o: /usr/include/pcl-1.7/pcl
 CMakeFiles/bin/openni_grabber.dir/openni_grabber.cpp.o: /usr/include/pcl-1.7/pcl/register_point_struct.h
 CMakeFiles/bin/openni_grabber.dir/openni_grabber.cpp.o: /usr/include/pcl-1.7/pcl/visualization/area_picking_event.h
 CMakeFiles/bin/openni_grabber.dir/openni_grabber.cpp.o: /usr/include/pcl-1.7/pcl/visualization/boost.h
+CMakeFiles/bin/openni_grabber.dir/openni_grabber.cpp.o: /usr/include/pcl-1.7/pcl/visualization/cloud_viewer.h
 CMakeFiles/bin/openni_grabber.dir/openni_grabber.cpp.o: /usr/include/pcl-1.7/pcl/visualization/common/actor_map.h
 CMakeFiles/bin/openni_grabber.dir/openni_grabber.cpp.o: /usr/include/pcl-1.7/pcl/visualization/common/common.h
 CMakeFiles/bin/openni_grabber.dir/openni_grabber.cpp.o: /usr/include/pcl-1.7/pcl/visualization/common/impl/common.hpp

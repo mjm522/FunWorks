@@ -1,0 +1,2 @@
+my_pcl_tutorial
+-DCATKIN_DEVEL_PREFIX=/home/mjm/Projects/FunProjects/ros_pcl_tutorials/devel -DCMAKE_INSTALL_PREFIX=/home/mjm/Projects/FunProjects/ros_pcl_tutorials/install -G Unix Makefiles
