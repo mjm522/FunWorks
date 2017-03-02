@@ -1,0 +1,8 @@
+prefix=/home/mjm/Projects/FunProjects/imu_ws/install
+
+Name: imu_send_tf
+Description: Description of imu_send_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/mjm/Projects/FunProjects/imu_ws/install/lib 
+Requires: 

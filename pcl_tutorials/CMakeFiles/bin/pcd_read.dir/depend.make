@@ -211,6 +211,8 @@ CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/PCLImage.h
 CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/PCLPointCloud2.h
 CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/PCLPointField.h
 CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/PointIndices.h
+CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/PolygonMesh.h
+CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/Vertices.h
 CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/common/concatenate.h
 CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/common/impl/io.hpp
 CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/common/io.h
@@ -226,6 +228,11 @@ CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/io/file_io.
 CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/io/impl/pcd_io.hpp
 CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/io/lzf.h
 CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/io/pcd_io.h
+CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/io/ply/byte_order.h
+CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/io/ply/io_operators.h
+CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/io/ply/ply.h
+CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/io/ply/ply_parser.h
+CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/io/ply_io.h
 CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/pcl_base.h
 CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/pcl_config.h
 CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o: /usr/include/pcl-1.7/pcl/pcl_exports.h

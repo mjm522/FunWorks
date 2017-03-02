@@ -6,8 +6,9 @@ import trimesh
 trimesh.util.attach_to_log()
 
 # load a file by name or from a buffer
-mesh = trimesh.load_mesh('mesh.STL')
+mesh = trimesh.load_mesh('test_pcd_mug_downsampled2.STL')
 
+# mesh.show()
 
 # mesh.fill_holes()
 
@@ -22,7 +23,7 @@ convex_combined = np.sum(meshes_convex)
 
 convex_combined.show()
 
-convex_combined.export('mesh_hull.STL', 'stl')
+convex_combined.export('test_pcd_mug_downsampled_hull.STL', 'stl')
 
 # is the current mesh watertight?
 print mesh.is_watertight

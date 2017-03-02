@@ -212,6 +212,8 @@ CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o
  /usr/include/pcl-1.7/pcl/PCLPointCloud2.h
  /usr/include/pcl-1.7/pcl/PCLPointField.h
  /usr/include/pcl-1.7/pcl/PointIndices.h
+ /usr/include/pcl-1.7/pcl/PolygonMesh.h
+ /usr/include/pcl-1.7/pcl/Vertices.h
  /usr/include/pcl-1.7/pcl/common/concatenate.h
  /usr/include/pcl-1.7/pcl/common/impl/io.hpp
  /usr/include/pcl-1.7/pcl/common/io.h
@@ -227,6 +229,11 @@ CMakeFiles/bin/pcd_read.dir/pcd_read.cpp.o
  /usr/include/pcl-1.7/pcl/io/impl/pcd_io.hpp
  /usr/include/pcl-1.7/pcl/io/lzf.h
  /usr/include/pcl-1.7/pcl/io/pcd_io.h
+ /usr/include/pcl-1.7/pcl/io/ply/byte_order.h
+ /usr/include/pcl-1.7/pcl/io/ply/io_operators.h
+ /usr/include/pcl-1.7/pcl/io/ply/ply.h
+ /usr/include/pcl-1.7/pcl/io/ply/ply_parser.h
+ /usr/include/pcl-1.7/pcl/io/ply_io.h
  /usr/include/pcl-1.7/pcl/pcl_base.h
  /usr/include/pcl-1.7/pcl/pcl_config.h
  /usr/include/pcl-1.7/pcl/pcl_exports.h
