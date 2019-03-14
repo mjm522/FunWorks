@@ -8,16 +8,17 @@ def q_sort(arr, lo, hi):
 
     def partision(t_lo, t_hi):
         pivot = arr[t_hi]
-        i = t_lo
+        i = t_lo-1
 
-        for j in range(t_lo, t_hi-1):
-            if arr[j] < pivot:
-                if i != j:
-                    swap(i, j)
+        for j in range(t_lo, t_hi):
+            if arr[j] <= pivot:
+                # if i != j:
                 i += 1
-        swap(i, t_hi)
+                swap(i, j)
+                
+        swap(i+1, t_hi)
         
-        return i
+        return i+1
 
     if lo < hi:
         p = partision(lo, hi)
@@ -31,7 +32,7 @@ def q_sort(arr, lo, hi):
 
 def main():
 
-    test = [5,2,2,1,8,3,2,9,2]
+    test = [21, 4, 1, 3, 9, 20, 25, 6, 21, 14]
     print q_sort(test, 0, len(test)-1)
 
 if __name__ == '__main__':
