@@ -33,14 +33,14 @@ class Rectangle:
 
 class QuadTree:
 
-    def __init__(self, rect: Rectangle, capacity: int=4):
+    def __init__(self, rect: Rectangle, max_members: int=4):
         self._rect = rect
         self._members = []
-        self._capacity = capacity
+        self._max_members = max_members
         self.is_divided = False
 
 
-    def subdivide(self):
+    def split(self):
         ne_bottom_left = Point(self._rect._bottom_left.x + self._rect._width/2, self._rect._bottom_left.y + self._rect._height/2)
         ne_top_right = Point(self._rect._top_right.x, self._rect._top_right.y)
         self._north_east = QuadTree(Rectangle(ne_bottom_left, ne_top_right))
@@ -62,11 +62,11 @@ class QuadTree:
     def add(self, point):
         if not self._rect.contains(point):
             return
-        if len(self._members) < self._capacity:
+        if len(self._members) < self._max_members:
             self._members.append(point)
         else:
             if not self.is_divided:
-                self.subdivide()
+                self.split()
             self._north_east.add(point)
             self._north_west.add(point)
             self._south_east.add(point)
@@ -121,7 +121,7 @@ def quad_tree_plotter(ax, qtree, color='k'):
 def test():
     import numpy as np
     np.random.seed(123)
-    num_test_samples = 100
+    num_test_samples = 200
     bottom_left = Point(0, 0)
     top_right = Point(200, 200)
     big_rectangle = Rectangle(bottom_left, top_right)
@@ -133,7 +133,7 @@ def test():
         qtree.add(point)
 
     test_bottom_left = Point(50, 50)
-    test_top_right = Point(120, 120)
+    test_top_right = Point(90, 90)
     test_rectangle = Rectangle(test_bottom_left, test_top_right)
 
     test_found_points = qtree.query(test_rectangle)
